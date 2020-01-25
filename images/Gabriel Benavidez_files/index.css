@@ -1,0 +1,117 @@
+.navBar{
+    top:0px;
+    left:70px;
+    position: fixed;
+    width: 200px;
+    height:1000px;
+    border:solid;
+    background-color: black;
+}
+
+.linksWrapper{
+    position: absolute;
+    top:10px;
+    left:1090px;
+    width:300px;
+    height:150px;
+}
+
+.linkdin{
+    position:absolute;
+    top:30px;
+    left:20px;
+    width:70px;
+    height:70px;
+  
+}
+
+.github{
+    position:absolute;
+    top:40px;
+    left:100px;
+    width:70px;
+    height:50px;
+  
+}
+
+
+body{
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.content{
+    left:400px;
+    top:280px;
+    border:solid;
+    position: absolute;
+    width:650px;
+    height:350px;
+}
+
+img[src="images/LI-In-Bug.png"]{
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left:15px;
+}
+
+img[src="images/GitHub-Mark-120px-plus.png"]{
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top:5px;
+    position: absolute;
+}
+
+
+.home{
+    position: absolute;
+    left:77px;
+    top:250px;
+    text-decoration: none;
+    color: #ffffff;
+  
+}
+
+.objective{
+    position: absolute;
+    left:65px;
+    top:300px;
+    text-decoration: none;
+    color: #ffffff;
+  
+}
+
+.resume{
+    position: absolute;
+    left:70px;
+    top:350px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact{
+    position: absolute;
+    left:70px;
+    top:400px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+img[src="images/page pic.jpg"]{
+    width: 220px;
+    left: 625px;
+    top: 50px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+  .bar1 {
+    width: 35px;
+    height: 5px;
+    background-color:#ffffff;
+    margin: 6px 0;
+  }

@@ -1,0 +1,177 @@
+.navBar{
+    top:0px;
+    left:70px;
+    position: fixed;
+    width: 200px;
+    height:1000px;
+    border:solid;
+    background-color: black;
+}
+
+.linksWrapper{
+    position: absolute;
+    top:5px;
+    left:1150px;
+    width:300px;
+    height:150px;
+  
+}
+
+.linkdin{
+    position:absolute;
+    top:30px;
+    left:20px;
+    width:70px;
+    height:70px;
+  
+}
+
+.github{
+    position:absolute;
+    top:40px;
+    left:83px;
+    width:70px;
+    height:50px;
+
+}
+
+.twitter{
+    position:absolute;
+    top:37px;
+    left:150px;
+    width:70px;
+    height:70px;
+
+}
+
+
+body{
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.content{
+    left:450px;
+    top:330px;
+    position: absolute;
+    width:650px;
+    height:350px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+img[src="images/LI-In-Bug.png"]{
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left:15px;
+}
+
+img[src="images/GitHub-Mark-120px-plus.png"]{
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top:5px;
+    position: absolute;
+}
+
+img[src="images/Twitter_Logo_Blue.png"]{
+    width: 80px;
+    height: 70px;
+    right:5px;
+    bottom:5px;
+    position: absolute;
+}
+
+
+.home{
+    position: absolute;
+    left:80px;
+    top:250px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.home:hover{
+    background-color: white;
+    color: black;
+}
+
+.objective{
+    position: absolute;
+    left:60px;
+    top:300px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.resume{
+    position: absolute;
+    left:70px;
+    top:350px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.contact{
+    position: absolute;
+    left:65px;
+    top:400px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+img[src="images/page pic.jpg"]{
+    width: 250px;
+    left: 620px;
+    top: 50px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+  .bar1 {
+    width: 35px;
+    height: 5px;
+    background-color:#ffffff;
+    margin: 6px 0;
+  }
+
+  .contactInfoWrapper{
+      width:420px;
+      height:200px;
+      position: absolute;
+      top:20px;
+      left:120px;
+  }
+
+  .contactInfoHeader{
+      bottom:170px;
+      width: 150px;
+      left: 120px;
+      position: absolute;
+  }
+
+  .contactInfo{
+      width: 250px;
+      height: 60px;
+      top: 30px;
+      left: 85px;
+      position: absolute;
+  }
+
+  td{
+      position: absolute;
+      top:60px;
+  }
+
+
