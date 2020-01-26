@@ -5,7 +5,8 @@
     width: 200px;
     height:1000px;
     border:solid;
-    background-color: black;
+    background-color: rgb(0, 0, 0); 
+    font-family: 'Assistant';
 }
 
 .linksWrapper{
@@ -14,7 +15,6 @@
     left:1150px;
     width:300px;
     height:150px;
-  
 }
 
 .linkdin{
@@ -50,16 +50,6 @@ body{
     position: absolute;
 }
 
-.content{
-    left:450px;
-    top:330px;
-    position: absolute;
-    width:650px;
-    height:350px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
-}
-
 img[src="images/LI-In-Bug.png"]{
     width: 45px;
     height: 40px;
@@ -91,87 +81,79 @@ img[src="images/Twitter_Logo_Blue.png"]{
     top:250px;
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
 }
 
 .home:hover{
     background-color: white;
     color: black;
-}
-
-.objective{
-    position: absolute;
-    left:60px;
-    top:300px;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
-    cursor: pointer;
+    transition-delay: 0.20s;
 }
 
 .resume{
     position: absolute;
-    left:70px;
-    top:350px;
+    left:75px;
+    top:300px;
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
 }
 
+.resume:hover{
+    background-color: white;
+    color: black;
+    transition-delay: 0.20s;
+}
+
+
 .contact{
     position: absolute;
-    left:65px;
-    top:400px;
+    left:75px;
+    top:350px;
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
+}
+
+
+.contact:hover{
+    background-color: white;
+    color: black;
+ 
+    transition-delay: 0.20s;
 }
 
 img[src="images/page pic.jpg"]{
     width: 250px;
-    left: 620px;
+    left: 610px;
     top: 50px;
     position: absolute;
     border-radius: 50%;
 }
 
+.contentWrapper{
+    width:750px;
+    height:350px;
+    left:375px;
+    top:350px;
+    position: absolute;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Assistant';
+}
 
-  .bar1 {
-    width: 35px;
-    height: 5px;
-    background-color:#ffffff;
-    margin: 6px 0;
-  }
+.contentHeader{
+    position: absolute;
+    left:310px;
+    top:-30px;
+}
 
-  .contactInfoWrapper{
-      width:420px;
-      height:200px;
-      position: absolute;
-      top:20px;
-      left:120px;
-  }
+.content{
+    position: absolute;
+}
 
-  .contactInfoHeader{
-      bottom:170px;
-      width: 150px;
-      left: 120px;
-      position: absolute;
-  }
 
-  .contactInfo{
-      width: 250px;
-      height: 60px;
-      top: 30px;
-      left: 85px;
-      position: absolute;
-  }
 
-  td{
-      position: absolute;
-      top:60px;
-  }
+
 
 
