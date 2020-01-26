@@ -2,7 +2,7 @@
 
 var aboutMeHeader = 'About Me'; 
  
-var aboutMeContent = "Hi, i'm Gabriel and I am a Software developer living in Miami, Fl. \
+var aboutMeContent = "Hi, i'm Gabriel and I am a Software Developer living in Miami, Fl. \
 I hold a Bachelor's of Science degree in Information Technology from Florida International University \
 with a concentration in software development. I am a self-motivated software developer with \
 a year plus of experience in Java development and server-side administration. \
