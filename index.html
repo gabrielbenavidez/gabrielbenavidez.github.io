@@ -3,27 +3,31 @@
         <title>Gabriel Benavidez</title>
         <link rel="stylesheet" type="text/css" href="index.css" />
         <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
     </header>
     <body onload="initialize()">
-        <div class="navBar">
-            <nav>
-                <a class="home" onclick="homeClickAction()">Home</a>
-                <a class="resume" href="assets/GabrielBenavidezResume.pdf">Resume</a>
-                <a class="contact" onclick="contactClickAction()">Contact</a>
-            </nav>
+        <div class="mainWrapper">
+           <img src="images/page pic.jpg">
+            <div class="navBar">
+               <nav class="navigationNav">
+                    <a class="home" onclick="homeClickAction()">Home</a>
+                    <a class="resume" href="assets/GabrielBenavidezResume.pdf">Resume</a>
+                    <a class="contact" onclick="contactClickAction()">Contact</a>
+                </nav>
+            </div>
+           <div class="linksWrapper">
+                <nav class="linksNav">
+                    <a class="linkedin" href="https://www.linkedin.com/in/gabrielbenavidez/"><img src="images/LI-In-Bug.png"></a>
+                    <a class="github"  href="https://github.com/gabrielbenavidez"><img src="images/GitHub-Mark-120px-plus.png"></a>
+                    <a class="twitter" href="https://twitter.com/GabeBenavidez01"><img src="images/Twitter_Logo_WhiteOnImage.png"></a>
+                    <a class="hackerrank" href="https://www.hackerrank.com/tomasgab"><img src="images/HackerRank_logo.png"></a>
+                </nav>
+            </div>
+            <div class="contentWrapper">
+                <h1 class="contentHeader"></h1>
+                <div class="content"></div>
+            </div>
+            <script src="index.js"></script>
         </div>
-        <img src="images/page pic.jpg">
-        <div class="linksWrapper">
-            <nav>
-                <a class="linkdin" href="https://www.linkedin.com/in/gabrielbenavidez/"><img src="images/LI-In-Bug.png"></a>
-                <a class="github"  href="https://github.com/gabrielbenavidez"><img src="images/GitHub-Mark-120px-plus.png"></a>
-                <a class="twitter" href="https://twitter.com/GabeBenavidez01"><img src="images/Twitter_Logo_Blue.png"></a>
-            <nav>
-        </div>
-        <div class="contentWrapper">
-            <h2 class="contentHeader"></h2>
-            <div class="content"></div>
-        </div>
-        <script src="index.js"></script>
     </body>
 </html>

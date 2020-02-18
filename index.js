@@ -2,62 +2,51 @@
 
 var aboutMeHeader = 'About Me'; 
  
-var aboutMeContent = "Hi, i'm Gabriel and I am a Software Developer living in Miami, FL. \
+var aboutMeContent = "Hi, I'm Gabriel and I am a Software Developer living in Miami, FL. \
 I hold a Bachelor's of Science degree in Information Technology from Florida International University \
-with a concentration in software development. I am a self-motivated software developer with \
+with a concentration in software development. I have \
 a year plus of experience in Java development and server-side administration. \
 I am an incisive thinker and solution-oriented team member. \
-I have experience in different areas of development such as Java programming and other back-end frameworks/languages, \
-database administration, Operating Systems, and front-end development. I enjoy connecting with others to share ideas and collaborate. ";
+I have experience in a multitude of areas of development such as Java programming and other back-end frameworks/languages, \
+database administration, Operating Systems, and front-end development.";
 
 
 var contactHeader= 'Contact';
 
-var contactInfo = '\
-            Email: <a href="mailto:gbena008@fiu.edu">gbena008@fiu.edu</a> <br><br>\
-            Phone: (786) 985-9390 <br><br>\
+var contactContent= 'Email: <a class="emailLink" href="mailto:gbena008@fiu.edu">gbena008@fiu.edu</a> <br><br>\
+Phone: (786) 985-9390 <br><br>\
             Location: Miami, FL';
 
 
 
 var home=document.getElementsByClassName("home")[0];
-var contact=document.getElementsByTagName("contact")[0];
-var contentHeader = document.getElementsByClassName("contentHeader")[0];
-var content = document.getElementsByClassName("content")[0];
+var contentHeaderElement = document.getElementsByClassName("contentHeader")[0];
+var contentElement = document.getElementsByClassName("content")[0];
 
 
 function initialize(){
     homeClickAction();
-      /** @type {HTMLElement} */
-      var contentElement = document.querySelector(".content");
-      contentElement.style.left = "120px";
-      contentElement.style.width = "500px";
-      contentElement.style.height = "200px";
-      contentElement.style.top = "45px";
 }
 
 function homeClickAction(){ 
-    if(!content.innerHTML.match.aboutMeContent){
-        changePageContent(contentHeader, aboutMeHeader);
-        changePageContent(content, aboutMeContent);
-      /** @type {HTMLElement} */
-      var contentElement = document.querySelector(".content");
-      contentElement.style.left = "120px";
-      contentElement.style.width = "500px";
-      contentElement.style.height = "200px";
-      contentElement.style.top = "45px";
-    }
+       /** @type {HTMLElement} */
+       var contentElement = document.querySelector(".content");
+       contentElement.style.textAlign = "justify";
+       contentElement.style.textJustify = "inter-word";
+       contentElement.style.left = "3%";
+       contentElement.style.lineHeight = "300%";
+      changePageContent(contentHeaderElement, aboutMeHeader);
+      changePageContent(contentElement, aboutMeContent);
+     
 }
 
 function contactClickAction(){ 
-    changePageContent(contentHeader, contactHeader);
-    changePageContent(content, contactInfo);
-    /** @type {HTMLElement} */
-    var contentElement = document.querySelector(".content");
-    contentElement.style.left = "285px";
-    contentElement.style.width = "300px";
-    contentElement.style.height = "200px";
-    contentElement.style.top = "45px";
+       /** @type {HTMLElement} */
+       var contentElement = document.querySelector(".content");
+       contentElement.style.left = "38%";
+       contentElement.style.lineHeight = "200%";
+    changePageContent(contentHeaderElement, contactHeader);
+    changePageContent(contentElement, contactContent);
 }
 
 function changePageContent(element, content){

@@ -35,12 +35,12 @@
 }
 
 
-body{
+.mainWrapper{
     background-color: #ffffff;
     position: absolute;
 }
 
-.content{
+.Wrapper{
     left:400px;
     top:280px;
     border:solid;

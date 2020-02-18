@@ -1,160 +1,470 @@
-.navBar{
-    top:0px;
-    left:70px;
-    position: fixed;
-    width: 200px;
-    height:1000px;
-    border:solid;
-    background-color: rgb(0, 0, 0); 
-    font-family: 'Assistant';
+
+.emailLink{
+text-decoration: underline;
+color: rgb(139, 138, 129);
 }
 
-.linksWrapper{
-    position: absolute;
-    top:5px;
-    left:1150px;
-    width:300px;
-    height:150px;
-}
+@media only screen and (max-width: 3000px ) and (min-width:600px) {
+    body{
+        background-color: rgb(253, 244, 222);
+    }
+    
+    .mainWrapper{
+        width: 99%;
+        height: 99%;
+        top:0.5%;
+        left:0.5%;
+    }
 
-.linkdin{
-    position:absolute;
-    top:30px;
-    left:20px;
-    width:70px;
-    height:70px;
-  
-}
+    .navBar{
+        position: absolute;
+        width:8%;
+        height:100%;
+        top: 0%;
+        left:10%;
+        background-color: rgb(27, 201, 186);
+    }
 
-.github{
-    position:absolute;
-    top:40px;
-    left:83px;
-    width:70px;
-    height:50px;
+    img[src="images/page pic.jpg"]{
+        max-width: 14%;
+        width: 12%;
+        height: 25%;
+        left: 44.5%;
+        top: 8vh;
+        border-radius: 50%;
+        position: absolute;
+        border: solid rgb(27, 201, 186) 1px;
+    }
 
-}
+    .navigationNav{
+        width: 70%;
+        height:30%;
+        left: 14%;
+        top:30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
 
-.twitter{
-    position:absolute;
-    top:37px;
-    left:150px;
-    width:70px;
-    height:70px;
+    .home{
+        color: rgb(197, 248, 12);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-}
+    .resume{
+        color: rgb(211, 253, 24);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
 
+    .contact{
+        color:rgb(211, 253, 24);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
-body{
-    background-color: #ffffff;
-    position: absolute;
-}
+    .linksWrapper{
+        position: absolute;
+        width: 25%;
+        height: 7%;
+        top: 5%;
+        left: 70%;
+    }
 
-img[src="images/LI-In-Bug.png"]{
-    width: 45px;
-    height: 40px;
-    position: absolute;
-    top: 15px;
-    left:15px;
-}
-
-img[src="images/GitHub-Mark-120px-plus.png"]{
-    width: 40px;
-    height: 40px;
-    left: 10px;
-    top:5px;
-    position: absolute;
-}
-
-img[src="images/Twitter_Logo_Blue.png"]{
-    width: 80px;
-    height: 70px;
-    right:5px;
-    bottom:5px;
-    position: absolute;
-}
-
-
-.home{
-    position: absolute;
-    left:80px;
-    top:250px;
-    text-decoration: none;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.home:hover{
-    background-color: white;
-    color: black;
-    transition-delay: 0.20s;
-}
-
-.resume{
-    position: absolute;
-    left:75px;
-    top:300px;
-    text-decoration: none;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.resume:hover{
-    background-color: white;
-    color: black;
-    transition-delay: 0.20s;
-}
+    .linksNav{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 98%;
+        height: 96%;
+        top: 2%;
+        left: 1%;
+      
+    }
 
 
-.contact{
-    position: absolute;
-    left:75px;
-    top:350px;
-    text-decoration: none;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-
-.contact:hover{
-    background-color: white;
-    color: black;
+    .linkedin{
+        width: 15%;
+        height: 90%;
  
-    transition-delay: 0.20s;
+    }
+
+    .github{
+        width: 15%;
+        height: 90%;
+  
+    }
+
+    .twitter{
+        width: 15%;
+        height: 90%;
+    }
+
+    .hackerrank{
+        width: 15%;
+        height: 90%;
+    }
+
+    .hackerrank:hover{
+        cursor: pointer;
+    }
+
+    .twitter:hover{
+        cursor: pointer;
+    }
+
+    .github:hover{
+        cursor: pointer;
+    }
+
+    .linkedin:hover{
+        cursor: pointer;
+    }
+
+    img[src="images/LI-In-Bug.png"]{
+        padding-top: 6%;
+        max-width: 100%;
+        max-height: 90%;
+        
+    }
+
+    img[src="images/Twitter_Logo_WhiteOnImage.png"]{
+        max-width: 100%;
+        max-height: 90%;
+        background-color: rgb(67, 168, 235);
+    }
+
+    img[src="images/GitHub-Mark-120px-plus.png"]{
+        max-width: 100%;
+        max-height: 90%;
+    }
+
+    img[src="images/HackerRank_logo.png"]{
+        width: 130%;
+        height: 130%;
+        position: relative;
+        top:-18%;
+        left: -15%;
+    }
+
+    .contentWrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+        height: 58%;
+        top: 36%;
+        left: 27%;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(139, 138, 129);
+    }
+
+    .contentHeader{
+        position: absolute;
+        width: 20%;
+        height: 16%;
+        top:2%;
+        left: 38%;
+        font-size: 130%;
+        text-align: center;
+        line-height: 2.5em;
+        z-index: 1;
+        text-align: center;
+        line-height: 400%;
+    }
+
+    .content{
+        background-attachment: fixed;
+        position: absolute;
+        width: 90%;
+        height: 61%;
+        top:23%;
+        line-height: 100%;
+        font-size: 0.8em;
+        line-height: 300%;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+   
+
+
+    
+
+/*
+
+  
+
+    .home:active{
+        background-color: aquamarine;
+        color: white;
+    }
+
+    .resume{
+        width: 20%;
+        height:40%;
+        left:38%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        padding-left: 4%;
+        padding-right: 1%;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(122, 122, 122);
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .resume:active{
+      background-color: aquamarine;
+        color:white;        
+    }
+
+ 
+  
+    .contact{
+        width: 20%;
+        height:40%;
+        left: 71vw;
+        top:0.5vh;
+        padding-top: 4%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 1%;
+        position: absolute;
+        background-color: rgb(248, 242, 226);
+        color: rgb(122, 122, 122);
+        text-align: center;
+        line-height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contact:active{
+        background-color: aquamarine;
+        color:white;
+    } */
+
 }
 
-img[src="images/page pic.jpg"]{
-    width: 250px;
-    left: 610px;
-    top: 50px;
-    position: absolute;
-    border-radius: 50%;
-    border: 4px solid black;
-}
-
-.contentWrapper{
-    width:750px;
-    height:350px;
-    left:375px;
-    top:350px;
-    position: absolute;
-    text-align: justify;
-    text-justify: inter-word;
-    font-family: 'Assistant';
-}
-
-.contentHeader{
-    position: absolute;
-    left:310px;
-    top:-30px;
-}
-
-.content{
-    position: absolute;
-}
 
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rgb(248, 242, 226);
+    }
+    
+    .mainWrapper{
+        width: 95%;
+        height: 80%;
+        background-color: rgb(24, 168, 187);
+        position:relative;
+        top:2%;
+        left:2.5%;
+    }
+
+    .navBar{
+        position: absolute;
+        width:100%;
+        height:8%;
+        top: 82%;
+        left: -4%;
+
+    }
+
+    .navigationNav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        position:relative;
+        width: 98%;
+        height:80%;
+        left:2%;
+        top:300%;
+        position: absolute;
+    }
+
+    .contentWrapper{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+        height: 58%;
+        top: 32%;
+        left: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .contentHeader{
+        position: absolute;
+        width: 35%;
+        height: 10%;
+        top:1%; 
+        left: 31%; 
+        font-size: 0.9em;
+        text-align: center;
+        line-height: 2.5em;
+        color: whitesmoke;
+    }
+
+    .content{
+        position: absolute;
+        width: 97%;
+        height: 60%;
+        top: 18%;
+        color: whitesmoke;
+        font-size: 0.8em;
+        line-height: 180%;
+   
+    }
+
+    .linksWrapper{
+        position: absolute;
+        width: 90%;
+        height: 7%;
+        top: 91%;
+        left: 5%;
+    }
+
+    .linksNav{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80vw;
+        height: 5vh;
+        top: 0.5vh;
+        left: 3vw;
+    }
+
+    .linkedin{
+        position: absolute;
+        left: 11vw;
+    }
+
+    .github{
+        position: absolute;
+        left: 35vw;
+    }
+
+    .twitter{
+        position: absolute;
+        left: 57vw;
+    }
+
+    img[src="images/LI-In-Bug.png"]{
+        max-width: 12vw;
+        height: 4vh;
+    }
+
+    img[src="images/Twitter_Logo_WhiteOnImage.png"]{
+        max-width: 13vw;
+        height: 5vh;
+        background-color: rgb(26, 187, 219);
+    }
+
+    img[src="images/GitHub-Mark-120px-plus.png"]{
+        max-width: 10vw;
+        height: 4vh;
+    }
+
+    img[src="images/page pic.jpg"]{
+        max-width:35%;
+        height: 18%;
+        left: 31%;
+        top: 8vh;
+        border-radius: 50%;
+        position: absolute;
+        border: solid white 4px;
+    }
 
 
 
+    .home{
+        width: 20%;
+        height:40%;
+        left: 5%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        padding-left: 1%;
+        padding-right: 1%;
+        position: absolute;
+        background-color:rgb(248, 242, 226);
+        color: rgb(122, 122, 122);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .home:active{
+        background-color: aquamarine;
+        color: white;
+    }
+
+    .resume{
+        width: 20%;
+        height:40%;
+        left:38%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        padding-left: 4%;
+        padding-right: 1%;
+        position: absolute;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(122, 122, 122);
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .resume:active{
+      background-color: aquamarine;
+        color:white;        
+    }
+
+ 
+  
+    .contact{
+        width: 20%;
+        height:40%;
+        left: 71vw;
+        top:0.5vh;
+        padding-top: 4%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        padding-right: 1%;
+        position: absolute;
+        background-color: rgb(248, 242, 226);
+        color: rgb(122, 122, 122);
+        text-align: center;
+        line-height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contact:active{
+        background-color: aquamarine;
+        color:white;
+    }
+
+    
+    
+
+  }
+  
+  
