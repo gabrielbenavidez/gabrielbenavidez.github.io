@@ -6,7 +6,7 @@ color: rgb(139, 138, 129);
 
 @media only screen and (max-width: 3000px ) and (min-width:600px) {
     body{
-        background-color: rgb(253, 244, 222);
+        background-color: rgb(243, 241, 235);
     }
     
     .mainWrapper{
@@ -18,7 +18,7 @@ color: rgb(139, 138, 129);
 
     .navBar{
         position: absolute;
-        width:8%;
+        width:13%;
         height:100%;
         top: 0%;
         left:10%;
@@ -33,7 +33,7 @@ color: rgb(139, 138, 129);
         top: 8vh;
         border-radius: 50%;
         position: absolute;
-        border: solid rgb(27, 201, 186) 1px;
+        border: solid rgb(255, 255, 255) 1px;
     }
 
     .navigationNav{
@@ -50,30 +50,45 @@ color: rgb(139, 138, 129);
     }
 
     .home{
-        color: rgb(197, 248, 12);
+        color: white;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .home:hover{
+        cursor: pointer;
+        font-weight: 600;
+    }
+
     .resume{
-        color: rgb(211, 253, 24);
+        color: white;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
     }
 
+    .resume:hover{
+        cursor: pointer;
+        font-weight: 600;
+    }
+
     .contact{
-        color:rgb(211, 253, 24);
+        color: white;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .contact:hover{
+        cursor: pointer;
+        font-weight: 600;
     }
 
     .linksWrapper{
         position: absolute;
         width: 25%;
         height: 7%;
-        top: 5%;
-        left: 70%;
+        top: 90%;
+        left: 75%;
     }
 
     .linksNav{
@@ -165,7 +180,7 @@ color: rgb(139, 138, 129);
         top: 36%;
         left: 27%;
         font-family: Arial, Helvetica, sans-serif;
-        color:rgb(139, 138, 129);
+        color:rgb(105, 105, 102);
     }
 
     .contentHeader{
@@ -198,62 +213,6 @@ color: rgb(139, 138, 129);
    
 
 
-    
-
-/*
-
-  
-
-    .home:active{
-        background-color: aquamarine;
-        color: white;
-    }
-
-    .resume{
-        width: 20%;
-        height:40%;
-        left:38%;
-        padding-top: 5%;
-        padding-bottom: 3%;
-        padding-left: 4%;
-        padding-right: 1%;
-        position: absolute;
-        text-align: center;
-        text-decoration: none;
-        color: rgb(122, 122, 122);
-        font-family: Arial, Helvetica, sans-serif;
-        
-    }
-
-    .resume:active{
-      background-color: aquamarine;
-        color:white;        
-    }
-
- 
-  
-    .contact{
-        width: 20%;
-        height:40%;
-        left: 71vw;
-        top:0.5vh;
-        padding-top: 4%;
-        padding-bottom: 1%;
-        padding-left: 2%;
-        padding-right: 1%;
-        position: absolute;
-        background-color: rgb(248, 242, 226);
-        color: rgb(122, 122, 122);
-        text-align: center;
-        line-height: 100%;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .contact:active{
-        background-color: aquamarine;
-        color:white;
-    } */
-
 }
 
 
@@ -266,203 +225,156 @@ color: rgb(139, 138, 129);
     }
     
     .mainWrapper{
-        width: 95%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
         background-color: rgb(24, 168, 187);
-        position:relative;
-        top:2%;
-        left:2.5%;
-    }
-
-    .navBar{
-        position: absolute;
-        width:100%;
-        height:8%;
-        top: 82%;
-        left: -4%;
-
-    }
-
-    .navigationNav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        position:relative;
-        width: 98%;
-        height:80%;
-        left:2%;
-        top:300%;
-        position: absolute;
-    }
-
-    .contentWrapper{
-        position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 98%;
-        height: 58%;
-        top: 32%;
-        left: 1%;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: justify;
-        text-justify: inter-word;
     }
 
-    .contentHeader{
-        position: absolute;
-        width: 35%;
-        height: 10%;
-        top:1%; 
-        left: 31%; 
-        font-size: 0.9em;
-        text-align: center;
-        line-height: 2.5em;
-        color: whitesmoke;
-    }
-
-    .content{
-        position: absolute;
-        width: 97%;
-        height: 60%;
-        top: 18%;
-        color: whitesmoke;
-        font-size: 0.8em;
-        line-height: 180%;
+    .navBar{
    
     }
 
-    .linksWrapper{
-        position: absolute;
-        width: 90%;
-        height: 7%;
-        top: 91%;
-        left: 5%;
+    .navigationNav{
+       
+     
     }
 
-    .linksNav{
-        position: absolute;
+    .contentWrapper{
+        width: 95%;
+        height: 60%;
+        margin-top: 25%;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        width: 80vw;
-        height: 5vh;
-        top: 0.5vh;
-        left: 3vw;
-    }
-
-    .linkedin{
-        position: absolute;
-        left: 11vw;
-    }
-
-    .github{
-        position: absolute;
-        left: 35vw;
-    }
-
-    .twitter{
-        position: absolute;
-        left: 57vw;
-    }
-
-    img[src="images/LI-In-Bug.png"]{
-        max-width: 12vw;
-        height: 4vh;
-    }
-
-    img[src="images/Twitter_Logo_WhiteOnImage.png"]{
-        max-width: 13vw;
-        height: 5vh;
-        background-color: rgb(26, 187, 219);
-    }
-
-    img[src="images/GitHub-Mark-120px-plus.png"]{
-        max-width: 10vw;
-        height: 4vh;
-    }
-
-    img[src="images/page pic.jpg"]{
-        max-width:35%;
-        height: 18%;
-        left: 31%;
-        top: 8vh;
-        border-radius: 50%;
-        position: absolute;
-        border: solid white 4px;
-    }
-
-
-
-    .home{
-        width: 20%;
-        height:40%;
-        left: 5%;
-        padding-top: 5%;
-        padding-bottom: 4%;
-        padding-left: 1%;
-        padding-right: 1%;
-        position: absolute;
-        background-color:rgb(248, 242, 226);
-        color: rgb(122, 122, 122);
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .home:active{
-        background-color: aquamarine;
         color: white;
     }
 
-    .resume{
-        width: 20%;
-        height:40%;
-        left:38%;
-        padding-top: 5%;
-        padding-bottom: 3%;
-        padding-left: 4%;
-        padding-right: 1%;
-        position: absolute;
+    .contentHeader{
+      width: 50%;
+      height: 10%;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    .content{
+        width: 99%;
+        height: 80%;
         text-align: center;
-        text-decoration: none;
-        color: rgb(122, 122, 122);
-        font-family: Arial, Helvetica, sans-serif;
+        font-size: .90em;
+    }
+
+    .linksWrapper{
+        width: 90%;
+        height: 5%;
+        position: relative;
+        top: 86%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .linksNav{
+
+      width: 98%;
+      height: 98%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+    }
+
+    .linkedin{
+        width:10%;
+        height: 85%;
+   
+    }
+
+    .github{
+          width:10%;
+          height: 90%;
+    
+    }
+
+    .twitter{
+        width:10%;
+        height: 90%;
+  
+    }
+
+    .hackerrank{
+        width:16%;
+        height: 110%;
+    }
+
+    img[src="images/LI-In-Bug.png"]{
+        width:100%;
+        height:100%;
+    }
+
+    img[src="images/Twitter_Logo_WhiteOnImage.png"]{
+        width:100%;
+        height:100%;
+    }
+
+    img[src="images/GitHub-Mark-120px-plus.png"]{
+        width:100%;
+        height:100%;
+    }
+
+
+    img[src="images/HackerRank_logo.png"]{
+        width:100%;
+        height:100%;
+    }
+
+    img[src="images/page pic.jpg"]{
+        width: 30%;
+        height: 18%;
+        margin-top: -30%;
+        border-radius: 50%;
+    }
+
+
+.menuIcon{
+    width: 10%;
+    height: 5%;
+    margin-right: 70%;
+    margin-top: -50%;
+    background-color: beige;
+}
+
+.menuIcon > div{
+
+}
+
+
+    .home{
+    
+    }
+
+   
+
+    .resume{
+        
         
     }
 
-    .resume:active{
-      background-color: aquamarine;
-        color:white;        
-    }
+   
 
  
   
     .contact{
-        width: 20%;
-        height:40%;
-        left: 71vw;
-        top:0.5vh;
-        padding-top: 4%;
-        padding-bottom: 1%;
-        padding-left: 2%;
-        padding-right: 1%;
-        position: absolute;
-        background-color: rgb(248, 242, 226);
-        color: rgb(122, 122, 122);
-        text-align: center;
-        line-height: 100%;
-        font-family: Arial, Helvetica, sans-serif;
+       
     }
 
-    .contact:active{
-        background-color: aquamarine;
-        color:white;
-    }
 
-    
     
 
   }
